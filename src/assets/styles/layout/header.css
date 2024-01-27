@@ -14,6 +14,12 @@
 
 .header img {
   display: block;
+  
+}
+
+.header img:hover {
+    opacity: 0.8;
+    color: var(--secondary-8);
 }
 
 .header-logo {

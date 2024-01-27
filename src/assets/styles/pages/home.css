@@ -30,10 +30,13 @@
   font-size: var(--text-jumbo);
   mix-blend-mode: hard-light;
   transition: 0.3s all;
+  color: var(--secondary-light);
 }
 
 .home-subheader:hover {
   opacity: 0.8;
+  color: var(--secondary-2);
+  
 }
 
 .home-subheader-alt {
