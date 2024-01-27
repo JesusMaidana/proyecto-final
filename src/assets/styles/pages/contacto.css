@@ -78,6 +78,34 @@
   opacity: 1;
 }
 
+.whatsapp-link-container {
+  text-align: center; /* Alinea el contenido al centro */
+  margin: 20px; /* Ajusta el margen según tus preferencias */
+}
+
+/* Estilos para el enlace */
+.whatsapp-link {
+  display: inline-block; /* Muestra el enlace como bloque en línea */
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+  padding: 10px 15px; /* Ajusta el relleno según tus preferencias */
+  background-color: #25d366; /* Color de fondo de WhatsApp verde */
+  color: #fff; /* Color del texto blanco */
+  border-radius: 5px; /* Ajusta la esquina redondeada según tus preferencias */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Estilos cuando pasas el mouse sobre el enlace */
+.whatsapp-link:hover {
+  background-color: #128C7E; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Estilos para la imagen de WhatsApp */
+.whatsapp-icon {
+  width: 20px; /* Ajusta el ancho según tus preferencias */
+  height: auto; /* Mantiene la proporción original */
+  margin-right: 8px; /* Ajusta el margen derecho según tus preferencias */
+}
+
 
 
 @media (max-width: 900px) {
