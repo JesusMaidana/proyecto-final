@@ -15,7 +15,7 @@
 }
 
 .home-title {
-  font-size: 10vw;
+  font-size: 8vw;
   position: sticky;
   top: 80px;
   opacity: var(--home-title-opacity);

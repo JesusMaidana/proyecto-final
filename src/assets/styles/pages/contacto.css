@@ -77,6 +77,18 @@
   opacity: 1;
 }
 
+.whatsapp-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ 
+}
+
+.whatsapp-icon {
+  
+  /* Estilos para la imagen de WhatsApp si es necesario */
+}
+
 @media (max-width: 900px) {
   .contacto-form {
     font-size: var(--text-title);
